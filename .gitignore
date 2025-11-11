@@ -1,0 +1,7 @@
+.vs/
+x64/
+*.tmp
+Debug/
+Release/
+InstallerBuild/
+*.log

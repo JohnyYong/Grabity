@@ -1,0 +1,281 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\include\imgui\imgui.cpp" />
+    <ClCompile Include="..\include\imgui\imgui_demo.cpp" />
+    <ClCompile Include="..\include\imgui\imgui_draw.cpp" />
+    <ClCompile Include="..\include\imgui\imgui_impl_glfw.cpp" />
+    <ClCompile Include="..\include\imgui\imgui_impl_opengl3.cpp" />
+    <ClCompile Include="..\include\imgui\imgui_tables.cpp" />
+    <ClCompile Include="..\include\imgui\imgui_widgets.cpp" />
+    <ClCompile Include="Src\AIStateMachineComponent.cpp" />
+    <ClCompile Include="Src\AnimationController.cpp" />
+    <ClCompile Include="Src\AnimatorComponent.cpp" />
+    <ClCompile Include="src\AssetManager.cpp" />
+    <ClCompile Include="src\Audio.cpp" />
+    <ClCompile Include="src\AudioComponent.cpp" />
+    <ClCompile Include="src\AudioManager.cpp" />
+    <ClCompile Include="src\Camera.cpp" />
+    <ClCompile Include="Src\CameraManager.cpp" />
+    <ClCompile Include="Src\CanvasComponent.cpp" />
+    <ClCompile Include="src\Collision.cpp" />
+    <ClCompile Include="src\ContentBrowser.cpp" />
+    <ClCompile Include="src\Engine.cpp" />
+    <ClCompile Include="src\EventSystem.cpp" />
+    <ClCompile Include="src\ExplosionComponent.cpp" />
+    <ClCompile Include="src\External Lib\stb_image.cpp" />
+    <ClCompile Include="src\FileManager.cpp" />
+    <ClCompile Include="src\Font.cpp" />
+    <ClCompile Include="src\FrameBuffer.cpp" />
+    <ClCompile Include="src\GameObject.cpp" />
+    <ClCompile Include="src\GameObjectFactory.cpp" />
+    <ClCompile Include="src\Geometry.cpp" />
+    <ClCompile Include="src\glad.c" />
+    <ClCompile Include="src\GLHelper.cpp" />
+    <ClCompile Include="src\GLWrapper.cpp" />
+    <ClCompile Include="src\GraphicsManager.cpp" />
+    <ClCompile Include="src\HealthComponent.cpp" />
+    <ClCompile Include="src\ImGuiConsole.cpp" />
+    <ClCompile Include="src\InterruptionHandler.cpp" />
+    <ClCompile Include="src\LayerManager.cpp" />
+    <ClCompile Include="src\LuaConfig.cpp" />
+    <ClCompile Include="src\IndexBuffer.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\Matrix4x4.cpp" />
+    <ClCompile Include="src\ImguiManager.cpp" />
+    <ClCompile Include="src\ParticleSystem.cpp" />
+    <ClCompile Include="Src\PauseMenuButton.cpp" />
+    <ClCompile Include="Src\PlayerCamera.cpp" />
+    <ClCompile Include="src\PlayerControllerComponent.cpp" />
+    <ClCompile Include="Src\PlayerSceneControls.cpp" />
+    <ClCompile Include="src\RectColliderComponent.cpp" />
+    <ClCompile Include="src\RigidBodyComponent.cpp" />
+    <ClCompile Include="src\Shader.cpp" />
+    <ClCompile Include="src\SliderComponent.cpp" />
+    <ClCompile Include="src\SpawnerComponent.cpp" />
+    <ClCompile Include="src\SplittingComponent.cpp" />
+    <ClCompile Include="src\SpriteAnimation.cpp" />
+    <ClCompile Include="src\TagManager.cpp" />
+    <ClCompile Include="src\TextComponent.cpp" />
+    <ClCompile Include="src\Texture.cpp" />
+    <ClCompile Include="Src\UISpriteComponent.cpp" />
+    <ClCompile Include="src\UISystem.cpp" />
+    <ClCompile Include="Src\UITextComponent.cpp" />
+    <ClCompile Include="src\VertexArray.cpp" />
+    <ClCompile Include="src\VertexBuffer.cpp" />
+    <ClCompile Include="src\SpriteComponent.cpp" />
+    <ClCompile Include="src\TransformComponent.cpp" />
+    <ClCompile Include="Src\VertexBufferLayout.cpp" />
+    <ClCompile Include="Src\VfxFollowComponent.cpp" />
+    <ClCompile Include="Src\VideoComponent.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\imgui\imconfig.h" />
+    <ClInclude Include="..\include\imgui\imgui.h" />
+    <ClInclude Include="..\include\imgui\imgui_impl_glfw.h" />
+    <ClInclude Include="..\include\imgui\imgui_impl_opengl3.h" />
+    <ClInclude Include="..\include\imgui\imgui_impl_opengl3_loader.h" />
+    <ClInclude Include="..\include\imgui\imgui_internal.h" />
+    <ClInclude Include="..\include\imgui\imstb_rectpack.h" />
+    <ClInclude Include="..\include\imgui\imstb_textedit.h" />
+    <ClInclude Include="..\include\imgui\imstb_truetype.h" />
+    <ClInclude Include="headers\AIStateBase.h" />
+    <ClInclude Include="headers\AIStateMachineComponent.h" />
+    <ClInclude Include="Headers\AnimationController.h" />
+    <ClInclude Include="Headers\AnimatorComponent.h" />
+    <ClInclude Include="headers\AssetManager.h" />
+    <ClInclude Include="headers\Audio.h" />
+    <ClInclude Include="headers\AudioComponent.h" />
+    <ClInclude Include="headers\AudioManager.h" />
+    <ClInclude Include="headers\ButtonComponent.h" />
+    <ClInclude Include="headers\CameraManager.h" />
+    <ClInclude Include="Headers\CanvasComponent.h" />
+    <ClInclude Include="headers\ChaseState.h" />
+    <ClInclude Include="headers\Collision.h" />
+    <ClInclude Include="headers\Camera.h" />
+    <ClInclude Include="headers\Component.h" />
+    <ClInclude Include="headers\ContentBrowser.h" />
+    <ClInclude Include="headers\ComponentHeaders.h" />
+    <ClInclude Include="headers\DespawnManager.h" />
+    <ClInclude Include="headers\Engine.h" />
+    <ClInclude Include="headers\EventSystem.h" />
+    <ClInclude Include="headers\ExplosionComponent.h" />
+    <ClInclude Include="headers\Filemanager.h" />
+    <ClInclude Include="headers\FleeState.h" />
+    <ClInclude Include="headers\FloatUpComponent.h" />
+    <ClInclude Include="headers\Font.h" />
+    <ClInclude Include="headers\FrameBuffer.h" />
+    <ClInclude Include="headers\GameEventComponent.h" />
+    <ClInclude Include="headers\GameObject.h" />
+    <ClInclude Include="headers\GameObjectFactory.h" />
+    <ClInclude Include="headers\Geometry.h" />
+    <ClInclude Include="headers\GLHelper.h" />
+    <ClInclude Include="headers\GLWrapper.h" />
+    <ClInclude Include="headers\Graphicsmanager.h" />
+    <ClInclude Include="headers\HealthComponent.h" />
+    <ClInclude Include="headers\IdleState.h" />
+    <ClInclude Include="headers\ImGuiConsole.h" />
+    <ClInclude Include="headers\IndexBuffer.h" />
+    <ClInclude Include="headers\InterruptionHandler.h" />
+    <ClInclude Include="headers\LayerManager.h" />
+    <ClInclude Include="headers\main.h" />
+    <ClInclude Include="headers\Maths.h" />
+    <ClInclude Include="headers\MathUtils.h" />
+    <ClInclude Include="headers\Matrix4x4.h" />
+    <ClInclude Include="headers\ObjectPool.h" />
+    <ClInclude Include="headers\ParticleSystem.h" />
+    <ClInclude Include="Headers\PauseMenuButton.h" />
+    <ClInclude Include="headers\pch.h" />
+    <ClInclude Include="headers\Imguimanager.h" />
+    <ClInclude Include="headers\LuaConfig.h" />
+    <ClInclude Include="headers\PhysicsSystem.h" />
+    <ClInclude Include="headers\PlayerControllerComponent.h" />
+    <ClInclude Include="headers\PlayerCamera.h" />
+    <ClInclude Include="Headers\PlayerSceneControls.h" />
+    <ClInclude Include="headers\RectColliderComponent.h" />
+    <ClInclude Include="headers\RigidBodyComponent.h" />
+    <ClInclude Include="headers\Shader.h" />
+    <ClInclude Include="headers\SliderComponent.h" />
+    <ClInclude Include="headers\SpawnerComponent.h" />
+    <ClInclude Include="headers\SplittingComponent.h" />
+    <ClInclude Include="headers\SpriteAnimation.h" />
+    <ClInclude Include="headers\SpriteComponent.h" />
+    <ClInclude Include="headers\System.h" />
+    <ClInclude Include="headers\SystemLogging.h" />
+    <ClInclude Include="headers\TagManager.h" />
+    <ClInclude Include="headers\TextComponent.h" />
+    <ClInclude Include="headers\Texture.h" />
+    <ClInclude Include="headers\TransformComponent.h" />
+    <ClInclude Include="headers\UIComponent.h" />
+    <ClInclude Include="Headers\UISpriteComponent.h" />
+    <ClInclude Include="headers\UISystem.h" />
+    <ClInclude Include="Headers\UITextComponent.h" />
+    <ClInclude Include="headers\Vector2.h" />
+    <ClInclude Include="headers\Vector3.h" />
+    <ClInclude Include="headers\VertexArray.h" />
+    <ClInclude Include="headers\VertexBuffer.h" />
+    <ClInclude Include="headers\VertexBufferLayout.h" />
+    <ClInclude Include="Headers\VfxFollowComponent.h" />
+    <ClInclude Include="Headers\VideoComponent.h" />
+    <ClInclude Include="src\External Lib\stb_image.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{1a8de4a9-4c2e-44d5-b5ac-3a72ae33af3d}</ProjectGuid>
+    <RootNamespace>Grabity</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>$(SolutionDir)\include;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
+    <LibraryPath>$(SolutionDir)\lib;$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64);$(SolutionDir)\lib\lua54</LibraryPath>
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)Executable\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <LibraryPath>$(SolutionDir)\lib;$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64);$(SolutionDir)\lib\lua54</LibraryPath>
+    <IncludePath>$(SolutionDir)\include;$(VC_IncludePath);$(WindowsSDK_IncludePath)</IncludePath>
+    <OutDir>$(SolutionDir)Executable\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_IMGUI;_LOGGING;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)\Grabity\headers;$(SolutionDir)Grabity\\src;$(SolutionDir)\include\imgui;$(SolutionDir)\include\GLFW;$(SolutionDir)\include\freetype;$(SolutionDir)\include\glad;$(SolutionDir)\include\fmod;$(SolutionDir)\include\lua54;$(SolutionDir)\include\sol</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>
+      </PrecompiledHeaderFile>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>fmod\fmodL_vc.lib;freetype\freetype.lib;GLFW\glfw3.lib;opengl32.lib;$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)\lib\fmod;$(SolutionDir)\lib\Freetype;$(SolutionDir)\lib\GLFW;$(SolutionDir)\lib</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>MSVCRT.lib</IgnoreSpecificDefaultLibraries>
+      <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy "$(SolutionDir)Grabity\Assets\*" "$(OutDir)Assets\" /s /r /y /q
+xcopy "$(SolutionDir)Inc\*" "$(OutDir)" /s /r /y /q</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalIncludeDirectories>$(SolutionDir)\Grabity\headers;$(SolutionDir)Grabity\\src;$(SolutionDir)\include\imgui;$(SolutionDir)\include\GLFW;$(SolutionDir)\include\freetype;$(SolutionDir)\include\glad;$(SolutionDir)\include\fmod;$(SolutionDir)\include\lua54;$(SolutionDir)\include\sol</AdditionalIncludeDirectories>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>
+      </PrecompiledHeaderFile>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)\lib\fmod;$(SolutionDir)\lib\Freetype;$(SolutionDir)\lib\GLFW;$(SolutionDir)\lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>fmod\fmod_vc.lib;freetype\freetype.lib;GLFW\glfw3.lib;opengl32.lib;$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>MSVCRT.lib</IgnoreSpecificDefaultLibraries>
+      <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy "$(SolutionDir)Grabity\Assets\*" "$(OutDir)Assets\" /s /r /y /q
+xcopy "$(SolutionDir)Inc\*" "$(OutDir)" /s /r /y /q</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
